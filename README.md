@@ -10,17 +10,14 @@ https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-dis
 	- 데이터 시각화 : matplotlib, seaborn
 	- 머신러닝 : sklearn, lightgbm, xgboost, catboost 등
 	- 웹구현 : streamlit
-
 역할분담 
 	- 민병창 : 범주형 변수 전환/오버샘플링(SMOTE)
 	- 김경목 :	 데이터 시각화
 	- 우상욱 : 웹 구현
 	- 머신러닝 : 팀원 전부 참여
 	- 발표 : 사다리타기
-
 협업도구
 	- GIT, NOTION
-
 
 * 웹구현 아이디어 :
 	1) 사용자가 웹에 접속해서, 자신의 정보를 입력
