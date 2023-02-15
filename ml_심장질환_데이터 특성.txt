@@ -1,0 +1,74 @@
+HeartDisease
+Respondents that have ever reported having coronary heart disease (CHD) or myocardial infarction (MI)
+(yes or no)심장질환 = y값
+
+BMI
+(float)Body Mass Index (BMI)
+
+Smoking
+Have you smoked at least 100 cigarettes in your entire life? [Note: 5 packs = 100 cigarettes]
+(yes or no)평생 100개비 미만으로 폈는가?
+
+AlcoholDrinking
+Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week
+(yes or no)과음자인가?(남성은 주에 14회 이상 , 여성은 주에 7회 이상
+
+Stroke
+(Ever told) (you had) a stroke?
+(yes or no)뇌졸중 경험이 있느냐?
+
+PhysicalHealth
+Now thinking about your physical health, which includes physical illness and injury, for how many days during the past 30 days was your physical health not good? (0-30 days)
+(30이하 float)질병과 부상을 포함해 30일 동안 아픈 횟수(일수)
+
+MentalHealth
+Thinking about your mental health, for how many days during the past 30 days was your mental health not good? (0-30 days)
+(30이하 float)지난 30일 동안 정신 건강이 좋지 않았던 횟수(일수)
+
+DiffWalking
+Do you have serious difficulty walking or climbing stairs?
+(Yes or No)계단 오르는데 힘드냐 안힘드냐
+
+Sex
+Are you male or female?
+(male female)성별
+
+AgeCategory
+Fourteen-level age category
+14개의 나이 범주데이터
+
+Race	
+(카테고리)인종 = White, Hispanic , Black , Other , Asian , American Indian/Alaskan Native
+
+Diabetic
+(Ever told) (you had) diabetes?
+(카테고리) 당뇨병인 적이 한번이라도 있냐?
+No                      
+Yes                      
+No, borderline diabetes (애매하다)
+Yes (during pregnancy)  (임신중에만 당뇨병이었다.)
+
+PhysicalActivity
+Adults who reported doing physical activity or exercise during the past 30 days other than their regular job
+(yes or no)운동하냐?
+
+GenHealth	
+Would you say that in general your health is...
+(카테고리)본인의 건강이 어떤가
+very good, good , excelent , fair , poor
+
+SleepTime
+On average, how many hours of sleep do you get in a 24-hour period?
+(float)수면시간
+
+Asthma
+(Ever told) (you had) asthma?
+(yes , no)천식 걸린적이 있냐?
+
+KidneyDisease
+Not including kidney stones, bladder infection or incontinence, were you ever told you had kidney disease?
+(yes or no) 신장질환이 있는가?
+
+SkinCancer
+(Ever told) (you had) skin cancer?	
+(yes or no)피부암이 경험이 있는가?
