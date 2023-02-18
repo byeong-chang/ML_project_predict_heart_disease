@@ -1,0 +1,110 @@
+verbose = 1000 하면 잘 가려짐
+모델저장하는법
+https://blog.naver.com/PostView.nhn?blogId=baek2sm&logNo=221894575686
+
+---오늘한거-----
+
+DT
+acc test score : 0.8558748683717357
+acc train score : 0.9969897288823768
+
+DT smote
+acc test score : 0.9093151534570472
+acc train score : 0.9983453632079854
+
+DT smoteTomek
+acc test score : 0.891845650288122
+acc train score : 0.9977822213821248
+
+XGB
+acc test score : 0.9107640526878067
+acc train score : 0.9169329203898815
+
+XGB SMOTE
+acc test score : 0.9342426484002667
+acc train score : 0.9366433051647263
+
+XGB SMOTETomek
+acc test score : 0.9264283547170615
+acc train score : 0.9295252915691382
+
+RamdomForest
+acc test score : 0.9107640526878067
+acc train score : 0.9169329203898815
+
+RamdomForest SMOTE
+acc test score : 0.9342426484002667
+acc train score : 0.9366433051647263
+
+RamdomForest SMOTETomek
+acc test score : 0.9264283547170615
+acc train score : 0.9295252915691382
+
+logistic
+acc test score : 0.9112711513982413
+acc train score : 0.9112951867137333
+
+logistic SMOTE
+acc test score : 0.7705533859769023
+acc train score : 0.7706335442077693
+
+logistic SMOTETomek
+acc test score : 0.7774134444563707
+acc train score : 0.7775074604720674
+
+lgbm
+acc test score : 0.9114766420727254
+acc train score : 0.9131379732256774
+
+lgbm SMOTE
+acc test score : 0.9322951590251705
+acc train score : 0.9327797534287333
+
+lgbm SMOTETomek
+acc test score : 0.9248841876122424
+acc train score : 0.9254952150686346
+
+CatBoost
+acc test score : 0.9104226737763377
+acc train score : 0.920823155371569
+
+CatBoost SMOTE
+acc test score : 0.9349294605881056
+
+acc train score : 0.9411786406235784
+0.9358826047748741
+CatBoost SMOTETomek
+
+acc test score : 0.9268094771858021
+acc train score : 0.9343686376833384
+rec test score : 0.8046335170201419
+rec train score : 0.8179200024100046
+
+CatBoost SMOTE {'bagging_temperature': 0, 'depth': 9, 'l2_leaf_reg': 3, 'learning_rate': 0.1} 
+
+acc test score : 0.9358826047748741
+acc train score : 0.9358826047748741
+
+
+---- 어제한것들(중복된거 지움)-----
+RandomForest SMOTE 튜닝
+n_estimators =100 max_depth =7  , min_samples_leaf = 8 , min_samples_split = 4
+train_score : 0.8498692852132883
+test_score : 0.8366531883865835
+
+logistic , knn , dt 로 soft보팅
+test score : 0.9105552467484319
+train score : 0.9120168895103733
+
+logistic , knn , dt 로 hard 보팅
+test score : 0.9104458736001895
+train score : 0.9115512214294045
+
+voting logistic, knn,DT 로 HARD voting  SMOTE
+test score : 0.7796632639533342
+train score : 0.8480451990781647
+
+
+LGBM max_depth = 128 , min_child_samples = 100 , num_leaves = 32 , subsample = 0.8
+test = 0.9113
+train = 0.9131

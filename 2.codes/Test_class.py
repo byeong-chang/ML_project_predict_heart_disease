@@ -20,8 +20,9 @@ class model_selection:
         self.y_train = xytt[0][2]
         self.y_test = xytt[0][3]
         self.model = model
-        self.X_train_over =0
-        self.y_train_over = 0
+        self.X_train_over = None
+        self.y_train_over = None
+        self.reg = None
         
     #점수 출력부 함수
     def get_clf_eval(self,y_test, pred=None, pred_proba=None):
@@ -47,15 +48,19 @@ class model_selection:
     # 모델 학습, 예측 , 출력을 실행해주는 함수
     def get_model_apply(self,SMOTE = False):
         if SMOTE == False:
-            reg = self.model.fit(self.X_train,self.y_train)
+            self.reg = self.model.fit(self.X_train,self.y_train)
         else:
             self.X_train_over , self.y_train_over = self.get_SMOTE()
-            reg = self.model.fit(self.X_train_over,self.y_train_over)
-        y_pred = reg.predict(self.X_test)
-        y_pred_proba = reg.predict_proba(self.X_test)[:,1]
+            self.model.fit(self.X_train_over,self.y_train_over
+                                      ,early_stopping_rounds = 30 , eval_metric = 'auc')
+            print(self.model.best_score_)
+            return self.model
+        y_pred = self.reg.predict(self.X_test)
+        y_pred_proba = self.reg.predict_proba(self.X_test)[:,1]
         self.get_clf_eval(self.y_test,y_pred,y_pred_proba)  
         # 우리는 심장병에 걸릴 확률을 원하기 때문에 proba 값을 return
-        return y_pred_proba 
+    def get_predict_proba(self,val):
+        return self.reg.predict_proba(val)[:,1]
 
 # 사용법 예시
 #df = pd.read_csv('C:/Chang_git/ML_project_predict_heart_disease/0.data/heart_2020_cleaned_preprocessing.csv')
