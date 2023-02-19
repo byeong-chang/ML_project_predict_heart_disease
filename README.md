@@ -7,11 +7,11 @@
 - 목적/효과 : 대중이 쉽게 접근 가능한 심장질환 판별 및 심장질환 발생 확률 제공
 - 기술스택
 	<div align=center> 
-	
+	전처리 :
 	<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
 	<img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=Numpy&logoColor=white">
 	    <br>
-	
+	시각화 :
 	<img src="https://img.shields.io/badge/matplotlib-006c66?style=for-the-badge&logo=Pandas&logoColor=white">
 	<img src="https://img.shields.io/badge/Seaborn-0080ff?style=for-the-badge&logo=Seaborn&logoColor=white">
 	    <br>
@@ -27,7 +27,7 @@
 	<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
 	<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=GitHub&logoColor=white">
 	    <br>
-	
+	웹 구현:
 	<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
 	</div>
 - 역할분담 
