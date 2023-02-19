@@ -9,7 +9,7 @@
 	- 데이터 가공
 	<div align=center>
 	    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">  
-	    <img src="https://img.shields.io/badge/Numpy-#013243?style=for-the-badge&logo=Numpy&logoColor=white">
+	    <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=Numpy&logoColor=white">
 	    <br>
 	</div>
 	- 데이터 시각화 : matplotlib, seaborn
