@@ -5,7 +5,7 @@
 	https://sangwookwoo-ml-project-predict-heart-diseas-heartdisease-fjfpjg.streamlit.app/
 - 데이터셋 : 캐글(Personal Key Indicators of Heart Disease) https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
 - 목적/효과 : 대중이 쉽게 접근 가능한 심장질환 판별 및 심장질환 발생 확률 제공
-- 기술스택(라이브러리)  
+- 기술스택
 	<div align=center> 
 	<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">
 	<img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=Numpy&logoColor=white">
@@ -18,6 +18,7 @@
 	<img src="https://img.shields.io/badge/XGBoost-4aa8d8?style=for-the-badge&logo=&logoColor=white">
 	<img src="https://img.shields.io/badge/CatBoost-fff44f?style=for-the-badge&logo=&logoColor=white">
 	    <br>
+	- 협업도구 
 	<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
 	<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
 	<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white">
@@ -28,8 +29,7 @@
 	- `김경목` : EDA, 시각화, 머신러닝 학습, 머신러닝 모델링
 	- `우상욱` : EDA, 전처리, 머신러닝 모델링, 웹 구현
 
-- 협업도구
-	- GIT, NOTION, CANVA
+
 
 - 웹구현 아이디어 :
 	1) 사용자가 웹에 접속해서, 자신의 정보를 입력
