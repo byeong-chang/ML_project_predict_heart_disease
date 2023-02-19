@@ -1,6 +1,8 @@
 # ML_project_predict_heart_disease
 - 팀명 : 우병목
 - 주제 : 심장질환 판별 머신러닝 모델 웹 구현
+- 구현 웹사이트 : 
+	https://sangwookwoo-ml-project-predict-heart-diseas-heartdisease-fjfpjg.streamlit.app/
 - 데이터셋 : 캐글(Personal Key Indicators of Heart Disease) https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
 - 목적/효과 : 대중이 쉽게 접근 가능한 심장질환 판별 및 심장질환 발생 확률 제공
 - 기술스택(라이브러리)
@@ -22,5 +24,3 @@
 	3) PRED_PROBA 활용 심장질환에 걸렸을 확률 반환
 	4) 사용자에게 심장질환 유무 및 예측 확률 반환.
 	
-- 구현 웹사이트 : 
-	https://sangwookwoo-ml-project-predict-heart-diseas-heartdisease-fjfpjg.streamlit.app/
