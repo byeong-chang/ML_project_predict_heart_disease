@@ -6,14 +6,19 @@
 - 데이터셋 : 캐글(Personal Key Indicators of Heart Disease) https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease
 - 목적/효과 : 대중이 쉽게 접근 가능한 심장질환 판별 및 심장질환 발생 확률 제공
 - 기술스택(라이브러리)
-	- 데이터 가공 : pandas, numpy
+	- 데이터 가공
+	<div align=center>
+	    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=Pandas&logoColor=white">  
+	    <img src="https://img.shields.io/badge/Numpy-006c66?style=for-the-badge&logo=Matplotlib&logoColor=white">
+	    <br>
+	</div>
 	- 데이터 시각화 : matplotlib, seaborn
 	- 머신러닝 : sklearn, lightgbm, xgboost, catboost 등
 	- 웹구현 : streamlit
 - 역할분담 
-	- 민병창 : 전처리, 시각화, 머신러닝 학습, 머신러닝 모델링
-	- 김경목 :	EDA, 시각화, 머신러닝 학습, 머신러닝 모델링
-	- 우상욱 : EDA, 전처리, 머신러닝 모델링, 웹 구현
+	- `민병창` : EDA, 전처리, 시각화, 머신러닝 학습, 머신러닝 모델링
+	- `김경목` : EDA, 시각화, 머신러닝 학습, 머신러닝 모델링
+	- `우상욱` : EDA, 전처리, 머신러닝 모델링, 웹 구현
 
 - 협업도구
 	- GIT, NOTION, CANVA
