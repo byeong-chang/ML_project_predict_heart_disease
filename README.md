@@ -14,12 +14,11 @@
 	<img src="https://img.shields.io/badge/Seaborn-0080ff?style=for-the-badge&logo=Seaborn&logoColor=white">
 	    <br>
 	<img src="https://img.shields.io/badge/sckit-learn-F7931E?style=for-the-badge&logo=sckit-learn&logoColor=white">
-	<img src="https://img.shields.io/badge/lightgbm-150458?style=for-the-badge&logo=Pandas&logoColor=white">
-	<img src="https://img.shields.io/badge/xgboost-150458?style=for-the-badge&logo=Pandas&logoColor=white">
-	<img src="https://img.shields.io/badge/catboost-150458?style=for-the-badge&logo=catboost&logoColor=white">
+	<img src="https://img.shields.io/badge/lightGBM-ffd400?style=for-the-badge&logo=&logoColor=white">
+	<img src="https://img.shields.io/badge/XGBoost-4aa8d8?style=for-the-badge&logo=&logoColor=white">
+	<img src="https://img.shields.io/badge/CatBoost-fff44f?style=for-the-badge&logo=&logoColor=white">
 	    <br>
 	<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white">
-	    <br>
 	<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white">
 	<img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white">
 	<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
